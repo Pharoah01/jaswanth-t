@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="viewport" content="IE-edge">
+        <meta name="viewport" content="width=device-width">
+        <title>Personal Blog</title>
+        <link rel="stylesheet" href="blog.css">
+        <script src="https://kit.fontawesome.com/ea24a11e4c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <nav>
+                    <!--<img src="" alt="">-->
+                    <ul>
+                        <li><a href="index.html"><span>Pharoah_001</span></a></li>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#contents">Contents</a></li>
+                        <li><a href="#"></a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Welcome to my <strong>personal blog</strong></p>
+                    <h1><span>pharoah_001</span> - Blog</h1>
+                </div>
+            </div>
+        </div>
+<!--------Contents----------->
+        <div class="contents">
+            <div class="container">
+                <h1 class="sub-title">Contents</h1>
+                <div class="contents-list">
+                    <div>
+                        <i class="fa-solid fa-laptop"></i>
+                        <h2>Crowdstrike</h2>
+                        <p>
+                            Analyzing a Blue Screen of Death (BSOD) report involves several key steps. First, identify the Bug Check Code, which reveals the type of error that caused the crash, such as 0x0000007E for SYSTEM_THREAD_EXCEPTION_NOT_HANDLED.
+                            This code, along with any accompanying parameters, provides clues about the nature of the problem. Next, examine any drivers or modules mentioned in the report to see if they were involved in the crash.
+                            For a more detailed analysis, review memory dump files using tools like WinDbg to trace the stack and pinpoint the faulty driver or module. Consider common issues such as outdated drivers, hardware malfunctions, or software conflicts. For instance, ensure that all drivers are updated and check for any recent software changes that might have introduced conflicts.
+                            Specifically for CrowdStrike users, verify that the software is correctly configured and up-to-date. Consulting CrowdStrike’s documentation or support might also be necessary if the issue persists, as they can provide targeted assistance based on the BSOD report and any associated logs.
+                        </p>
+                        <a href="#">Learn-More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </body>
+</html>
