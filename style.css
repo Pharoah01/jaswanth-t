@@ -197,7 +197,7 @@ nav .fa-solid{
     overflow: hidden;
 }
 .team img{
-    width: 75%;
+    width: 100%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
