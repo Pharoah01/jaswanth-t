@@ -14,9 +14,13 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    /*background-image: url(Assests/Mainpng.png);*/
+    /*background-image: url('/Assests/Website-Development.webp');*/
     background-size: cover;
-    background-position: center;
+    overflow: hidden;
+}
+.header-text{
+    position: inherit;
+    margin: center;
 }
 .container{
     padding: 10px 10%;
@@ -185,6 +189,12 @@ nav .fa-solid{
 #portfolio{
     padding: 50px 0;
 }
+#team p {
+    margin-top: 20px;
+}
+#team p span{
+    color: #ff004f;
+}
 .team-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -235,10 +245,6 @@ nav .fa-solid{
     height: 60px;
     border-radius: 50px;
     text-align: center;
-}
-.layer p strong{
-    margin-bottom: 20px;
-    font-size: large;
 }
 .team:hover img{
     transform: scale(1.1);
