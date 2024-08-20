@@ -7,6 +7,10 @@
 html{
     scroll-behavior: smooth;
 }
+head link{
+    border-radius: 50%;
+    border: 25px solid #080808;
+}
 body{
     background-color: #080808;
     color: #fff;
