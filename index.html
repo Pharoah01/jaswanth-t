@@ -215,6 +215,19 @@
         })
         .catch(error => console.error('Error!', error.message))
     })
+
+    document.addEventListener('visibilitychange',
+    function () {
+        if (document.visibilityState === "visible") {
+            document.title = "Pharoah_001";
+            $("#favicon").attr("href", "Assests/Aboutmepng.png");
+        }
+        else {
+            document.title = "Come Back Again!!";
+            $("#favicon").attr("href", "Assests/Aboutmepng.png");
+        }
+    });
+
   </script>
 </body>
 </html>

@@ -15,6 +15,22 @@ body{
     background-color: #080808;
     color: #fff;
 }
+html::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  html::-webkit-scrollbar-track {
+    background: #080808;
+  }
+  html::-webkit-scrollbar-thumb {
+    background: #ff004f;
+  }
+  html::-webkit-scrollbar-thumb:hover::before {
+    background: #db1b58;
+  }
+  html::-webkit-scrollbar-thumb::after {
+    background: #ff004f;
+  }
+  
 #header{
     width: 100%;
     height: 100vh;
