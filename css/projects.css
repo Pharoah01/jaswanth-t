@@ -1,0 +1,35 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-color: #080808; 
+}
+.loader {
+	perspective: 800px;
+}
+.round {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	animation: animate 7s linear infinite;
+	display: grid;
+	place-content: center;
+	color: #ff004f;
+	box-shadow: 0 0 100px #ff004f, 0 0 20px #ff004f, 0 0 30px #ff004f;
+	font-family: impact;
+	font-size: 35px;
+	border: 15px outset #ff004f;
+}
+@keyframes animate {
+	0% {
+		transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+	}
+	100% {
+		transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+	}
+}
+ /*-------------------------------------------------------*/
+ 
