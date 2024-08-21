@@ -1,0 +1,21 @@
+
+.scrollbar{
+    width: 0.8rem;
+    height: 0.2rem;
+}
+@supports (scrollbar-color: auto) {
+    .scrollbox {
+      scrollbar-color: aquamarine cornflowerblue;
+    }
+  }
+  
+
+  @supports selector(::-webkit-scrollbar) {
+    .scrollbox::-webkit-scrollbar {
+      background: aquamarine;
+    }
+    .scrollbox::-webkit-scrollbar-thumb {
+      background: cornflowerblue;
+    }
+  }
+  
