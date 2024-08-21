@@ -30,11 +30,19 @@ html::-webkit-scrollbar-thumb:hover::before {
 html::-webkit-scrollbar-thumb::after {
     background: #ff004f;
 }
-#portfolio{
+
+
+/*------------------*/
+#team{
     padding: 50px 0;
+}
+#team h1{
+    font-size: 50px;
+    text-align: center;
 }
 #team p {
     margin-top: 20px;
+    text-align: center;
 }
 #team p span{
     color: #ff004f;
@@ -42,6 +50,7 @@ html::-webkit-scrollbar-thumb::after {
 .team-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    /*grid-template-rows: repeat(2, 350px);*/
     grid-gap: 40px;
     margin-top: 50px;
 }
