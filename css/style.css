@@ -119,8 +119,6 @@ nav ul li a:hover::after{
 .about-col-2 a {
     color: #db1b58;
     text-decoration: none;
-    text-transform: inherit;
-    text-justify: auto;
 }
 .about-col-2 a:hover {
     color: #ff004f;
